@@ -92,7 +92,7 @@ Before running the tests, ensure you have the following software installed on yo
 - [Web Feature](https://qatraining.fr/pages/features/web-feature.html)
 - [Dynamic Form](https://qatraining.fr/pages/features/dynamic-form.html)
 
-### Contact Information (Optional)
+## Contact Information
 
 Don't hesitate to contact me for any questions or even to discuss improvements regarding a method or any other aspect of the project.
 - Email: przegralek.thomas@gmail.com
