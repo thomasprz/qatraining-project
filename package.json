@@ -2,8 +2,9 @@
   "name": "qa-training",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "test": "npx playwright test"
+  },  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
