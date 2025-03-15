@@ -8,7 +8,8 @@ This personal project focuses on practicing automated testing for various featur
 
 |-- assets
 |   |-- playwright.svg
-|
+|-- playwright-report
+|   |-- index.html
 |-- tests
 |   |-- qatraining_actionautomation.spec.ts
 |   |-- qatraining_alertbutton.spec.ts
@@ -17,6 +18,7 @@ This personal project focuses on practicing automated testing for various featur
 |   |-- qatraining_visualtesting.spec.ts
 |
 |-- .gitignore
+|-- README.md
 |-- package-lock.json
 |-- package.json
 |-- playwright.config.ts
