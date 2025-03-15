@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Sticky Header', async ({ page }) => {
   // Naviguer vers la page
-  await page.goto('https://qatraining.fr/pages/features/sticky-header.html');
+  await page.goto('/pages/features/sticky-header.html');
 
   // Localiser l'élément du header sticky
   const navigationHeader = page.locator('nav');

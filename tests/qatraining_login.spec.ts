@@ -15,7 +15,7 @@ test('Login page', async ({ page }) => {
         await dialog.accept();
     });
 
-    await page.goto('https://qatraining.fr/pages/features/login.html');
+    await page.goto('/pages/features/login.html');
     await expect(page.locator('h1')).toHaveText('Login');
 
     await page.locator('#username').fill('Thomas');

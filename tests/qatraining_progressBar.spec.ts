@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test("Progress Bar stops at 75%", async ({ page }) => {
-    await page.goto('https://qatraining.fr/pages/features/progress-bar.html');
+    await page.goto('/pages/features/progress-bar.html');
 
     // Sélection des éléments
     const progressBar = page.locator('#progress-bar');

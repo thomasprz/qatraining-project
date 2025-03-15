@@ -3,7 +3,7 @@ import {test, expect} from '@playwright/test'
 
 test('Scroll', async ({page}) => {
 
-    await page.goto('https://qatraining.fr/pages/features/scroll.html')
+    await page.goto('/pages/features/scroll.html')
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
     await page.waitForSelector('#scroll-message');
     const message = await page.locator('#scroll-message').innerText();

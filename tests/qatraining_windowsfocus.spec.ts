@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Interact with new window', async ({ page, context }) => {
     // Aller à la page cible
-    await page.goto('https://qatraining.fr/pages/features/window-focus.html');
+    await page.goto('/pages/features/window-focus.html');
 
     // Cliquer sur le bouton et attendre que la nouvelle fenêtre s'ouvre
     const [newPage] = await Promise.all([

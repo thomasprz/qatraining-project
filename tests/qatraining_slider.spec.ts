@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Slider', async ({ page }) => {
     // Naviguer vers la page
-    await page.goto('https://qatraining.fr/pages/features/slider.html');
+    await page.goto('/pages/features/slider.html');
 
     // Localiser le slider et récupérer sa bounding box
     const slider = page.locator('#slider');

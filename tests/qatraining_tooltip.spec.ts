@@ -2,7 +2,7 @@ import {test, expect} from '@playwright/test'
 
 
 test('Tooltip', async ({page}) => {
-    await page.goto('https://qatraining.fr/pages/features/tooltip.html')
+    await page.goto('/pages/features/tooltip.html')
 
     await page.hover('.tooltip-classic')
     const tooltipClassic = page.locator('.tooltip-classic').getAttribute('data-tooltip')

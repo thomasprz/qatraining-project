@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('Sélectionner et vérifier un bouton radio avec pseudo-élément', async ({ page }) => {
   
 
-  await page.goto('https://qatraining.fr/pages/features/radio-box.html');
+  await page.goto('/pages/features/radio-box.html');
 
   const radioOption1 = page.locator('label').filter({ hasText: 'Option 1' })
   await radioOption1.click();

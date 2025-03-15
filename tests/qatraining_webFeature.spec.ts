@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Web Feature', async ({ page }) => {
     // Aller à la page cible
-    await page.goto('https://qatraining.fr/pages/features/web-feature.html');
+    await page.goto('/pages/features/web-feature.html');
 
     await page.getByRole('button', { name: "Changer le thème" }).click();
     await expect(page.locator('body')).toHaveClass('dark-theme');

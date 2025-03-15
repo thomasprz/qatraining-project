@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test("iFrame", async ({ page }) => {
-  await page.goto('https://qatraining.fr/pages/features/frame-button.html');
+  await page.goto('/pages/features/frame-button.html');
 
   const iframeLocator = page.locator('#button-frame');
   const iframe = await iframeLocator.contentFrame();

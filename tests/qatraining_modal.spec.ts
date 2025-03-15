@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test("Alert Button", async ({ page }) => {
   
-  await page.goto("https://qatraining.fr/pages/features/modal.html")
+  await page.goto("/pages/features/modal.html")
   await page.getByRole('button', {name: 'Ouvrir la fenêtre modale'}).click()
 
   const modal = page.locator('#modal');

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test("Interactive Features 2", async ({ page }) => {
-    await page.goto('https://qatraining.fr/pages/features/interactive-features.html');
+    await page.goto('/pages/features/interactive-features.html');
     await page.getByRole('button', {name:'Cliquez pour afficher/masquer le contenu'}).click()
     await expect(page.locator('.panel')).toBeVisible()
     await expect(page.locator('.panel')).toContainText('Voici un contenu caché dans un accordéon. Il peut être développé ou réduit.')
