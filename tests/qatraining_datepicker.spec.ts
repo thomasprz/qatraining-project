@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test'
 
 test("Alert Button", async({page}) => {
-    await page.goto('https://qatraining.fr/pages/features/date-picker.html')
+    await page.goto('/pages/features/date-picker.html')
 
     const date = "1994-12-23"
     await page.locator('#date-picker').fill(date)

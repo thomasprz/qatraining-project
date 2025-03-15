@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test("Dynamic Form", async ({ page }) => {
   
-  await page.goto("https://qatraining.fr/pages/features/dynamic-form.html")
+  await page.goto("/pages/features/dynamic-form.html")
   await page.fill('input[name="name"]','Thomas')
   await page.fill('input[name="email"]','tom.pcheg@gmail.com')
   await page.fill('#message','Test automatisé avec Playwright')

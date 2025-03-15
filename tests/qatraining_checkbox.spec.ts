@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test'
 
 test('Checkbox', async ({page}) => {
-    await page.goto('https://qatraining.fr/pages/features/checkbox.html')
+    await page.goto('/pages/features/checkbox.html')
 
     const checkboxes = ['#checkbox-1', '#checkbox-2', '#checkbox-3', '#checkbox-4'];
 

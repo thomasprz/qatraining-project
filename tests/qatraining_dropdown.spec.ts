@@ -3,7 +3,7 @@ import exp from 'constants'
 
 test('Dropdown', async ({page}) => {
 
-    await page.goto('https://qatraining.fr/pages/features/dropdown.html')
+    await page.goto('/pages/features/dropdown.html')
     const value = "1"
     await page.locator('#dropdown-menu').selectOption({value})
 

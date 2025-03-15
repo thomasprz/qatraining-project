@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test("Action Automation", async ({ page }) => {
-  await page.goto('https://qatraining.fr/pages/features/action-automation.html');
+  await page.goto('/pages/features/action-automation.html');
   await page.getByRole('button', {name:'Simuler un Clic avec Délai'}).click()
   await expect(page.locator('#status-message')).toHaveText('Clic réussi après attente !')
 

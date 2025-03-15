@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test'
 
 test('Double Click', async ({page}) => {
-    await page.goto('https://qatraining.fr/pages/features/double-click.html')
+    await page.goto('/pages/features/double-click.html')
 
     await page.locator('#double-click-btn').dblclick();
     await page.waitForSelector('#success-message', { state: 'visible' }) //Mettre un state avec waitForSelector
